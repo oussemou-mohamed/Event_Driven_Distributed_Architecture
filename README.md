@@ -48,31 +48,26 @@ Create an application that allows you to manage bank accounts.
 
 #### 1- Commands
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/70f29afe-c846-48be-b99e-f5898457c550)
-
 * Create Account
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/3dc5cad9-37a6-4d4e-b376-61fe2af8a4cc)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/creat.PNG)
 
 * Credit an account
   
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/4dbdc0b3-5223-4859-ae52-2fc9fd0fe5a3)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/credit.PNG)
 
 * Debit an account
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/0d7c24bb-f047-4e3b-bda3-7ee2da691540)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/debitnormale.PNG)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/debit_balance_not-sufficient.PNG)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/debit-negative-amaunt.PNG)
 
 #### 2- Events 
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/b8f96adf-6b57-4ed1-b64a-dcde42a2d8b3)
-
 * EventStore Data Base
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/73d4a8a6-ce4c-4df3-8972-8d790511741f)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/EventStore%20Data%20Base.PNG)
 
-* Account events 
-  
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/7cc29007-0991-4064-9af6-f51511741550)
 
 
 ### Query Side
@@ -81,46 +76,19 @@ Create an application that allows you to manage bank accounts.
   
 `ACCOUNT Table`
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/13aaa680-94c7-4086-81e2-704c6229fa6e)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/ACCOUNT%20Table.PNG)
 
 `OPERATION Table`
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/ac797722-ca4b-4012-80cd-de2f4a2b498b)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/OPERATION%20Table.PNG)
 
 
 * All accounts
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/9dceab7e-7c9a-4123-9ee0-0dd04747716a)
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/All%20accounts.PNG)
 
 * Account By ID
 
-![image](https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/ba8ce62a-513f-48e9-a9a5-1cf66f85bca3)
-
-
-## Axon Server
-
-
-* Add to `application.proprties`
-
-```java
-axon.axonserver.enabled=true
-axon.axonserver.servers=localhost
-```
-* To start Axon Server 
-
-`java -jar axonserver.jar`
-
-
-* To consult Axon Dashboard
-
-`http://localhost:8024/`
-
-
-* Event Store 
-
-
-
-
-
+![image](https://github.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/blob/master/src/imge/Account%20By%20ID.PNG)
 
 
