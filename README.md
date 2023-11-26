@@ -38,69 +38,6 @@ and tracking account balances.
 
 ## Project Structure 
 ```
-│
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───ma
-│   │   │       └───enset
-│   │   │           └───accountscqrseventsourcingaxon
-│   │   │               │   AccountsCqrsEventsourcingAxonApplication.java
-│   │   │               │
-│   │   │               ├───commands
-│   │   │               │   ├───aggregates
-│   │   │               │   │       AccountAggregate.java
-│   │   │               │   │
-│   │   │               │   └───controllers
-│   │   │               │           AccountCommandController.java
-│   │   │               │
-│   │   │               ├───commonapi
-│   │   │               │   ├───commands
-│   │   │               │   │       BaseCommand.java
-│   │   │               │   │       CreateAccountCommand.java
-│   │   │               │   │       CreditAccountCommand.kt
-│   │   │               │   │       DebitAccountCommand.kt
-│   │   │               │   │
-│   │   │               │   ├───dtos
-│   │   │               │   │       CreateAccoutRequestDTO.java
-│   │   │               │   │       CreditAccoutRequestDTO.java
-│   │   │               │   │       DebitAccoutRequestDTO.java
-│   │   │               │   │
-│   │   │               │   ├───enums
-│   │   │               │   │       AccountStatus.java
-│   │   │               │   │       TransactionType.java
-│   │   │               │   │       
-│   │   │               │   ├───events
-│   │   │               │   │       AccountCreatedEvent.java
-│   │   │               │   │       AccountCreditedEvent.kt
-│   │   │               │   │       AccountDebitedEvent.kt
-│   │   │               │   │       BaseEvent.java
-│   │   │               │   │
-│   │   │               │   ├───exceptions
-│   │   │               │   │       InsufficientBalanceException.java
-│   │   │               │   │       NegativeAmountException.java
-│   │   │               │   │       NegativeInitialBalanceException.java
-│   │   │               │   │
-│   │   │               │   └───queries
-│   │   │               └───queries
-│   │   │                   ├───controllers
-│   │   │                   │       AccountQueryController.java
-│   │   │                   │
-│   │   │                   ├───entites
-│   │   │                   │       Account.java
-│   │   │                   │       Operation.java
-│   │   │                   │
-│   │   │                   ├───query
-│   │   │                   │       GetAccountQuery.java
-│   │   │                   │       GetAllAccountsQuery.java
-│   │   │                   │
-│   │   │                   ├───repository
-│   │   │                   │       AccountRepository.java
-│   │   │                   │       OperationRepository.java
-│   │   │                   │
-│   │   │                   └───services
-│   │   │                           AccountEventHandlerService.java
-````
 
 ## Tests
 
