@@ -1,11 +1,7 @@
 # Bank Account Management Application with Axon Framework (CQRS, Event Sourcing Patterns)
 
 ```
-This project aims to develop a comprehensive bank account management application that adheres to
-the principles of CQRS (Command Query Responsibility Segregation) and Event Sourcing patterns.
-Leveraging the Axon and Spring Boot frameworks, the application will enable users to effectively
-manage their bank accounts,including creating new accounts, depositing and withdrawing funds,
-and tracking account balances.
+This project aims to develop a comprehensive bank account management application that aligns with the principles of CQRS (Command Query Responsibility Segregation) and Event Sourcing patterns. Utilizing the Axon and Spring Boot frameworks, the application will empower users to efficiently handle their bank accounts, including tasks such as creating new accounts, depositing and withdrawing funds, and monitoring account balances.
 ```
 
 ## Table of Contents
