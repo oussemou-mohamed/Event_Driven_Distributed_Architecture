@@ -37,6 +37,8 @@ and tracking account balances.
 - MySQL database
 
 ## Project Structure
+![image]([https://github.com/el-moudni-hicham/digital-bancking-cqrs-eventsourcing-axon/assets/85403056/70f29afe-c846-48be-b99e-f5898457c550](https://raw.githubusercontent.com/oussemou-mohamed/Event_Driven_Distributed_Architecture/master/src/imge/Capture.PNG))
+
 ## Tests
 
 Create an application that allows you to manage bank accounts.  
