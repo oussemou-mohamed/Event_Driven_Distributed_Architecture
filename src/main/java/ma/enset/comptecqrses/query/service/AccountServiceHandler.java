@@ -81,8 +81,7 @@ public class AccountServiceHandler {
         return accountRepository.findAll();
     }
     @QueryHandler
-    public Account on(GetAccountByIdQuery query)
-    {
+    public Account on(GetAccountByIdQuery query) {
         return accountRepository.findById(query.getId()).get();
     }
 }
