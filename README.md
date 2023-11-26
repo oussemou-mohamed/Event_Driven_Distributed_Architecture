@@ -5,7 +5,7 @@ the objective of this project is to create a robust application for managing ban
 (Command Query Responsibility Segregation) and Event Sourcing patterns. Using the Axon and Spring Boot frameworks,
 users will have the capability to effectively oversee various aspects of their bank accounts. This includes tasks
  such as establishing new accounts, depositing and withdrawing funds, and keeping track of account balances.
-
+```
 ## Table of Contents
 
 - [Key Concepts](#key-concepts)
